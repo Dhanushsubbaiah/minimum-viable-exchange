@@ -29,14 +29,14 @@ You will find a list of accounts you can use that private key to open a wallet i
   // );
 ```
 
-> in a second terminal window, 🛰 deploy your contract (locally):
+> in a second terminal window, deploy your contract (locally):
 
 ```sh
 cd minimum-viable-exchange
 yarn deploy
 ```
 
-> in a third terminal window, start your 📱 frontend:
+> in a third terminal window, start your frontend:
 
 ```sh
 cd minimum-viable-exchange
