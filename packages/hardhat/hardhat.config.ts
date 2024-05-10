@@ -12,11 +12,11 @@ import "hardhat-deploy-ethers";
 
 // If not set, it uses ours Alchemy's default API key.
 // You can get your own at https://dashboard.alchemyapi.io
-const providerApiKey = process.env.ALCHEMY_API_KEY || "YOUR ALCHEMY API KEY";
+const providerApiKey = process.env.ALCHEMY_API_KEY || "985TCDzG-ENnspeClowUtmMcgeJI0jpu";
 // If not set, it uses the hardhat account 0 private key.
-const deployerPrivateKey = process.env.DEPLOYER_PRIVATE_KEY ?? "YOUR DEPLOYER PRIVATE KEY";
+const deployerPrivateKey = process.env.DEPLOYER_PRIVATE_KEY ?? "0xac0974bec39a17e36ba4a6b4d238ff944bacb478cbed5efcae784d7bf4f2ff80";
 // If not set, it uses ours Etherscan default API key.
-const etherscanApiKey = process.env.ETHERSCAN_API_KEY || "YOUR ETHERSCAN API KEY";
+const etherscanApiKey = process.env.ETHERSCAN_API_KEY || "NCWXCGRVYVBBFMV1YHD88HKZZKWU8E2IXF";
 
 const config: HardhatUserConfig = {
   solidity: {
