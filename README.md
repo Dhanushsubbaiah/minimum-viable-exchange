@@ -6,7 +6,7 @@ This repo consists of a decentralized exchange which has token pair of ERC20 Scr
 You need to have :
 - [Node (v18 LTS)](https://nodejs.org/en/download/)
 -  Yarn ([v1](https://classic.yarnpkg.com/en/docs/install/) or [v2+](https://yarnpkg.com/getting-started/install))
-- [Metamask] (https://metamask.io/download/)
+- [Metamask](https://metamask.io/download/)
 
 ```sh
 git clone https://github.com/Dhanushsubbaiah/minimum-viable-exchange.git 
