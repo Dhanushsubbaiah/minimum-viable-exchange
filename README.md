@@ -1,6 +1,6 @@
 # Minimum Viable Exchange
 
-This repo consists of decentralized exchange which has token pair of ERC20 Scroogecoin and ETH. It allows seamless trade between toke SCR and ETH in a decentralized manner. Users will be able to connect their wallets, view their token balance, buy or sell the tokens according to the price formula.
+This repo consists of a decentralized exchange which has token pair of ERC20 Scroogecoin and ETH. It allows seamless trade between token SCR and ETH in a decentralized manner. Users will be able to connect their wallets, view their token balance, buy or sell the tokens according to the price formula.
 
 # Environment:
 You need to have :
