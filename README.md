@@ -1,12 +1,12 @@
 # Minimum Viable Exchange
 
-This repo consists of decentralized exchange which has token pair of ERC20 Scroogecoin and ETH. It allows seamless trade between toke SCR and ETH in a decentralized manner. Users will be able to connect their wallets, view their token balance, buy or sell the tokens according to the price formula.
+This repo consists of a decentralized exchange which has token pair of ERC20 Scroogecoin and ETH. It allows seamless trade between token SCR and ETH in a decentralized manner. Users will be able to connect their wallets, view their token balance, buy or sell the tokens according to the price formula.
 
 # Environment:
 You need to have :
 - [Node (v18 LTS)](https://nodejs.org/en/download/)
 -  Yarn ([v1](https://classic.yarnpkg.com/en/docs/install/) or [v2+](https://yarnpkg.com/getting-started/install))
-- [Metamask] (https://metamask.io/download/)
+- [Metamask](https://metamask.io/download/)
 
 ```sh
 git clone https://github.com/Dhanushsubbaiah/minimum-viable-exchange.git 
