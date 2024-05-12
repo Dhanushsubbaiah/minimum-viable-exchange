@@ -19,7 +19,14 @@ in the same terminal, start your local network (a blockchain emulator in your co
 ```sh
 yarn chain
 ```
-You will find a list of accounts you can use that private key to open a wallet in Metamask or if you already have a metamask you need the wallet address where we would use the address.  Add some ETH to your local account using the faucet and then find the `00_deploy_your_contract.ts` file. Find and uncomment the lines below and add your front-end address (your burner wallet address).
+You will find a list of accounts you can use that private key to open a wallet in Metamask or if you already have a metamask you need the wallet address where we would use the address. Also, add your private key in packages->hardhat->'hardhat.config.ts'.
+
+```sh
+const deployerPrivateKey =
+  process.env.DEPLOYER_PRIVATE_KEY ?? "YOUR_WALLET_PRIVATE_KEY";
+```
+
+Add some ETH to your local account using the faucet and then find the `00_deploy_your_contract.ts` file. Find and uncomment the lines below and add your front-end address (your burner wallet address).
 
 ```
   // // paste in your front-end address here to get 10 balloons on deploy:
@@ -93,3 +100,13 @@ Frontend:
 Edit your frontend config in `packages/nextjs/scaffold.config.ts` to change the `targetNetwork` to `chains.sepolia` or any other public network.
 
 View your frontend at http://localhost:3000 and verify you see the correct network.
+
+Below are the screenshots
+
+![image](https://github.com/Dhanushsubbaiah/minimum-viable-exchange/assets/59074947/d8d9b8b8-86e7-43e6-8c08-0c9f8f9fbaf0)
+
+![image](https://github.com/Dhanushsubbaiah/minimum-viable-exchange/assets/59074947/b812364b-7b0a-4536-a2da-1d29ae117e1c)
+
+![image](https://github.com/Dhanushsubbaiah/minimum-viable-exchange/assets/59074947/affad3df-e753-4b63-9533-806868090bad)
+
+
