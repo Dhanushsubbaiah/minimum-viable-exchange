@@ -26,7 +26,7 @@ const deployerPrivateKey =
   process.env.DEPLOYER_PRIVATE_KEY ?? "YOUR_WALLET_PRIVATE_KEY";
 ```
 
-Add some ETH to your local account using the faucet and then find the `00_deploy_your_contract.ts` file. Find and uncomment the lines below and add your front-end address (your burner wallet address).
+find the `00_deploy_your_contract.ts` file in packages->hardhat->deploy->00_deploy_your_contract.ts. Find and uncomment the lines below and add your front-end address (your burner wallet address).
 
 ```
   // // paste in your front-end address here to get 10 balloons on deploy:
