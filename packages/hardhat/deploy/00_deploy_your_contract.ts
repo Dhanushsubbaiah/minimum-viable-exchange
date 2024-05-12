@@ -50,7 +50,7 @@ const deployYourContract: DeployFunction = async function (hre: HardhatRuntimeEn
   const dex = (await hre.ethers.getContract("DEX", deployer)) as DEX;
 
   // // paste in your front-end address here to get 10 Scrooge on deploy:
-  await Scrooge.transfer("YOUR FRONTEND ADDRESS", "" + 10 * 10 ** 18);
+  await Scrooge.transfer("0xc03e8cf19bbCCA2FD6f9DF7Df0A4e60e0e92c7Ad", "" + 10 * 10 ** 18);
 
   // uncomment to init DEX on deploy:
 
