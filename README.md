@@ -14,11 +14,6 @@ cd minimum-viable-exchange
 yarn install
 
 ```
-in the same terminal, start your local network (a blockchain emulator in your computer):
-
-```sh
-yarn chain
-```
 You will find a list of accounts you can use that private key to open a wallet in Metamask or if you already have a metamask you need the wallet address where we would use the address. Also, add your private key in packages->hardhat->'hardhat.config.ts'.
 
 ```sh
@@ -34,6 +29,11 @@ find the `00_deploy_your_contract.ts` file in packages->hardhat->deploy->00_depl
   //   "YOUR_FRONTEND_ADDRESS",
   //   "" + 10 * 10 ** 18
   // );
+```
+in the same terminal where you installed node modules, start your local network (a blockchain emulator in your computer):
+
+```sh
+yarn chain
 ```
 
 > in a second terminal window, deploy your contract (locally):
